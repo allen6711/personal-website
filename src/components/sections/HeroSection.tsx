@@ -20,8 +20,7 @@ const HeroSection = () => {
               <p className="text-jade-dark font-medium text-lg">Hey, I'm Wei-Lun 👋</p>
               <h1 className="text-5xl lg:text-6xl font-bold text-charcoal leading-tight">
                 Full-Stack
-                Software Engineer
-                {/* <span className="text-gradient block">Software Engineer</span> */}
+                <span className="text-gradient block">Software Engineer</span>
               </h1>
               <p className="text-xl text-muted-foreground max-w-2xl">
                 MS Computer Engineering at University of Washington | Full-Stack Development | 
