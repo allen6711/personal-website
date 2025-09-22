@@ -67,7 +67,7 @@ const HeroSection = () => {
           </div>
 
           {/* Profile Image Placeholder */}
-          <div className="flex justify-center lg:justify-end pr-4 lg:pr-24 -mt-48 animate-fade-in-up">
+          <div className="flex justify-center lg:justify-end pr-4 lg:pr-24 -mt-100 animate-fade-in-up">
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-jade-light to-jade-medium rounded-full blur-2xl opacity-20 animate-pulse-glow"></div>
               <div className="relative w-80 h-80 lg:w-96 lg:h-96 rounded-full bg-jade-light/20 border-4 border-jade-light/30 shadow-hover flex items-center justify-center">
