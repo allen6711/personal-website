@@ -1,5 +1,6 @@
 import { Button } from '@/components/ui/button';
 import { ArrowDown, ExternalLink } from 'lucide-react';
+import profilePhoto from '@/assets/profile-photo.png';
 
 const HeroSection = () => {
   const scrollToSection = (sectionId: string) => {
@@ -70,16 +71,12 @@ const HeroSection = () => {
           <div className="flex justify-center lg:justify-end pr-4 lg:pr-24 -mt-36 animate-fade-in-up">
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-jade-light to-jade-medium rounded-full blur-2xl opacity-20 animate-pulse-glow"></div>
-              <div className="relative w-80 h-80 lg:w-96 lg:h-96 rounded-full bg-jade-light/20 border-4 border-jade-light/30 shadow-hover flex items-center justify-center">
-                <div className="text-center">
-                  <div className="w-16 h-16 bg-jade-medium/30 rounded-full mx-auto mb-4 flex items-center justify-center">
-                    <svg className="w-8 h-8 text-jade-dark" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd" />
-                    </svg>
-                  </div>
-                  <p className="text-jade-dark font-medium text-sm">Your Profile Photo</p>
-                  <p className="text-jade-dark/70 text-xs mt-1">Replace with your image</p>
-                </div>
+              <div className="relative w-80 h-80 lg:w-96 lg:h-96 rounded-full border-4 border-jade-light/30 shadow-hover overflow-hidden">
+                <img 
+                  src={profilePhoto} 
+                  alt="Wei-Lun Profile Photo" 
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
           </div>
