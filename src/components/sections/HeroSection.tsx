@@ -19,8 +19,8 @@ const HeroSection = () => {
             <div className="space-y-4">
               <p className="text-jade-dark font-medium text-lg">Hey, I'm Wei-Lun 👋</p>
               <h1 className="text-5xl lg:text-6xl font-bold text-charcoal leading-tight">
-                Computer Engineering 
-                <span className="text-gradient block">Graduate Student</span>
+                Full-Stack Software Engineer 
+                <span className="text-gradient block"></span>
               </h1>
               <p className="text-xl text-muted-foreground max-w-2xl">
                 MS Computer Engineering at University of Washington | Full-Stack Development | 
