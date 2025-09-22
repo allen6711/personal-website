@@ -14,35 +14,10 @@ const AboutSection = () => {
 
         <div className="grid lg:grid-cols-2 gap-12 items-start">
           
-          {/* Personal Story */}
+          {/* Education */}
           <div className="space-y-6">
-            <h3 className="text-2xl font-semibold text-charcoal mb-4">My Story</h3>
-            <div className="space-y-4 text-charcoal-light leading-relaxed">
-              <p>
-                My journey in technology started with a fascination for how software can transform 
-                ideas into reality. Currently pursuing my <span className="text-jade-dark font-medium">
-                Master of Science in Computer Engineering at the University of Washington</span>, 
-                I'm expanding my knowledge in advanced computing systems and machine learning.
-              </p>
-              <p>
-                I enjoy exploring new technologies and building full-stack applications that solve 
-                real-world problems. My approach combines <span className="text-jade-dark font-medium">
-                object-oriented design principles</span> with modern development practices to create 
-                scalable, maintainable software solutions.
-              </p>
-              <p>
-                When I'm not coding, you'll find me experimenting with new frameworks, contributing 
-                to open-source projects, or exploring the latest developments in machine learning 
-                and artificial intelligence.
-              </p>
-            </div>
-          </div>
-
-          {/* Education & Experience */}
-          <div className="space-y-6">
-            <h3 className="text-2xl font-semibold text-charcoal mb-4">Background</h3>
+            <h3 className="text-2xl font-semibold text-charcoal mb-4">Education</h3>
             
-            {/* Education */}
             <Card className="shadow-card hover:shadow-hover transition-smooth">
               <CardContent className="p-6">
                 <div className="flex items-start space-x-4">
@@ -60,8 +35,12 @@ const AboutSection = () => {
                 </div>
               </CardContent>
             </Card>
+          </div>
 
-            {/* Work Experience */}
+          {/* Work Experience */}
+          <div className="space-y-6">
+            <h3 className="text-2xl font-semibold text-charcoal mb-4">Work Experience</h3>
+            
             <Card className="shadow-card hover:shadow-hover transition-smooth">
               <CardContent className="p-6">
                 <div className="flex items-start space-x-4">
