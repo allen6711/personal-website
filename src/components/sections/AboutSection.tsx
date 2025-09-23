@@ -1,6 +1,6 @@
 import { Card, CardContent } from '@/components/ui/card';
 import { Briefcase, Calendar } from 'lucide-react';
-import weiLunLogo from '@/assets/wei-lun-logo.png';
+import uwLogo from '@/assets/uw-logo.png';
 
 const AboutSection = () => {
   return (
@@ -23,7 +23,7 @@ const AboutSection = () => {
               <CardContent className="p-6">
                 <div className="flex items-start space-x-4">
                   <div className="bg-jade-light/20 p-3 rounded-lg">
-                    <img src={weiLunLogo} alt="Wei-Lun Logo" className="h-8 w-8 object-contain" />
+                    <img src={uwLogo} alt="University of Washington" className="h-8 w-8 object-contain" />
                   </div>
                   <div className="flex-1">
                     <h4 className="text-lg font-semibold text-charcoal">Master of Science in Computer Engineering</h4>
