@@ -44,7 +44,7 @@ const ProjectsSection = () => {
         'Built ETL with validation, OAuth 2.0, and exponential-backoff retries to sync with Google Sheets',
         'Delivered REST APIs and backend schemas, demonstrating end-to-end ownership'
       ],
-      githubUrl: 'https://github.com/allen6711/fin-pipe',
+      githubUrl: 'https://github.com/allen6711',
       liveUrl: '#'
     }
   ];
