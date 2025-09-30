@@ -30,7 +30,7 @@ const ProjectsSection = () => {
         'Designed responsive React + Tailwind frontend, optimized via Vite for 20% faster load times',
         'Implemented backend REST APIs and secured 15+ routes with JWT authentication'
       ],
-      githubUrl: 'https://github.com/allen6711',
+      githubUrl: 'https://github.com/allen6711/x-clone',
       liveUrl: '#'
     },
     {
@@ -44,7 +44,7 @@ const ProjectsSection = () => {
         'Built ETL with validation, OAuth 2.0, and exponential-backoff retries to sync with Google Sheets',
         'Delivered REST APIs and backend schemas, demonstrating end-to-end ownership'
       ],
-      githubUrl: 'https://github.com/allen6711/fin-pipe',
+      githubUrl: 'https://github.com/allen6711',
       liveUrl: '#'
     }
   ];
