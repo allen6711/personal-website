@@ -16,7 +16,7 @@ const ProjectsSection = () => {
         'Integrated 3,700+ problems from 5 sources using a Node.js ETL pipeline',
         'Developed Chrome MV3 extension and resolved CORS, async, Service Worker challenges'
       ],
-      githubUrl: 'https://github.com/allen6711',
+      githubUrl: 'https://github.com/allen6711/leetcode-finder-extension',
       liveUrl: '#'
     },
     {
