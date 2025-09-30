@@ -30,7 +30,7 @@ const ProjectsSection = () => {
         'Designed responsive React + Tailwind frontend, optimized via Vite for 20% faster load times',
         'Implemented backend REST APIs and secured 15+ routes with JWT authentication'
       ],
-      githubUrl: 'https://github.com/allen6711',
+      githubUrl: 'https://github.com/allen6711/x-clone',
       liveUrl: '#'
     },
     {
