@@ -6,48 +6,45 @@ import { ExternalLink, Github, Calendar } from 'lucide-react';
 const ProjectsSection = () => {
   const projects = [
     {
-      title: 'EchoX',
-      subtitle: 'Full-Stack Twitter Clone',
-      period: 'July–August 2025',
-      description: 'A comprehensive Twitter clone replicating core social media features with modern web technologies. Includes user authentication, real-time posting, notifications, and a responsive design.',
-      techStack: ['React', 'Node.js', 'Express', 'MongoDB', 'JWT'],
+      title: 'Unified LeetCode Problem Finder',
+      subtitle: 'Database-Driven Full-Stack App',
+      period: 'September–October 2025',
+      description: 'A high-performance full-stack application that aggregates and queries LeetCode problems from multiple sources, featuring a Chrome extension and optimized database queries for lightning-fast search capabilities.',
+      techStack: ['JavaScript', 'Node.js', 'Express', 'PostgreSQL', 'Chrome MV3', 'HTML/CSS'],
       highlights: [
-        'Real-time notifications system',
-        'JWT-based authentication',
-        'Responsive user interface',
-        'Post creation and interaction'
+        'Achieved sub-50ms query response with REST API + parameterized SQL',
+        'Integrated 3,700+ problems from 5 sources using a Node.js ETL pipeline',
+        'Developed Chrome MV3 extension and resolved CORS, async, Service Worker challenges'
       ],
-      githubUrl: 'https://github.com/allen6711/echox',
+      githubUrl: 'https://github.com/allen6711',
       liveUrl: '#'
     },
     {
-      title: 'FinPipe',
-      subtitle: 'Smart Accounting Web App',
-      period: 'August 2025',
-      description: 'Intelligent financial management application that automatically categorizes transactions and integrates seamlessly with Google Sheets for real-time data synchronization.',
-      techStack: ['Python', 'Flask', 'JavaScript', 'Pandas', 'Google Sheets API'],
+      title: 'Twitter-Style Social App',
+      subtitle: 'Full-Stack Web App',
+      period: 'March–May 2025',
+      description: 'A comprehensive social media application featuring real-time notifications, secure authentication, and a responsive modern interface built with React and TailwindCSS.',
+      techStack: ['JavaScript', 'React', 'Node.js', 'Express', 'MongoDB', 'TailwindCSS', 'JWT'],
       highlights: [
-        'Automated transaction categorization',
-        'Google Sheets integration',
-        'Real-time data processing',
-        'Intuitive financial dashboard'
+        'Built a social app with authentication, posting, and real-time notifications (500+ test posts)',
+        'Designed responsive React + Tailwind frontend, optimized via Vite for 20% faster load times',
+        'Implemented backend REST APIs and secured 15+ routes with JWT authentication'
       ],
-      githubUrl: 'https://github.com/allen6711/finpipe',
+      githubUrl: 'https://github.com/allen6711',
       liveUrl: '#'
     },
     {
-      title: 'PolicyGuard',
-      subtitle: 'Content Moderation Engine',
-      period: 'September 2025',
-      description: 'Advanced content moderation system combining large language models with rule-based filtering to simulate policy enforcement across various content types.',
-      techStack: ['Python', 'OpenAI API', 'Regex', 'Prompt Engineering'],
+      title: 'AI Smart Accounting Platform',
+      subtitle: 'AI-Driven Automation Platform',
+      period: 'January–February 2025',
+      description: 'An intelligent financial management platform leveraging AI to automate transaction classification and seamlessly integrate with Google Sheets for real-time data synchronization.',
+      techStack: ['Python', 'Flask', 'React', 'Pandas', 'Google Sheets API', 'Gemini API'],
       highlights: [
-        'LLM-powered content analysis',
-        'Rule-based policy enforcement',
-        'Scalable moderation pipeline',
-        'Custom prompt engineering'
+        'Reduced manual entry by 70% across 2,000+ XLSX/CSV records using Gemini API for auto-classification',
+        'Built ETL with validation, OAuth 2.0, and exponential-backoff retries to sync with Google Sheets',
+        'Delivered REST APIs and backend schemas, demonstrating end-to-end ownership'
       ],
-      githubUrl: 'https://github.com/allen6711/policyguard',
+      githubUrl: 'https://github.com/allen6711',
       liveUrl: '#'
     }
   ];
