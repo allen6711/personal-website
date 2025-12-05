@@ -21,7 +21,7 @@ const ContactSection = () => {
     // Create mailto link with form data
     const subject = `Message from ${formData.name}`;
     const body = `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`;
-    const mailtoLink = `mailto:allenhuang.jon@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    const mailtoLink = `mailto:allenhuang.job@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     
     window.location.href = mailtoLink;
     
@@ -45,8 +45,8 @@ const ContactSection = () => {
     {
       icon: Mail,
       label: 'Email',
-      value: 'allenhuang.jon@gmail.com',
-      href: 'mailto:allenhuang.jon@gmail.com'
+      value: 'allenhuang.job@gmail.com',
+      href: 'mailto:allenhuang.job@gmail.com'
     },
     {
       icon: Phone,
