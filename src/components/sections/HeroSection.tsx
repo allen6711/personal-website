@@ -18,7 +18,7 @@ const HeroSection = () => {
           {/* Content */}
           <div className="space-y-8 animate-fade-in-up">
             <div className="space-y-4">
-              <p className="text-jade-dark font-medium text-lg">Hey, I'm Wei-Lun 👋</p>
+              <p className="text-jade-dark font-medium text-lg">Hey, I'm Allen 👋</p>
               <h1 className="text-5xl lg:text-6xl font-bold text-charcoal leading-snug">
                 Full-Stack
                 <span className="text-charcoal block">Software Engineer</span>
@@ -74,7 +74,7 @@ const HeroSection = () => {
               <div className="relative w-80 h-80 lg:w-96 lg:h-96 rounded-full border-4 border-jade-light/30 shadow-hover overflow-hidden">
                 <img 
                   src={profilePhoto} 
-                  alt="Wei-Lun Profile Photo" 
+                  alt="Allen Profile Photo" 
                   className="w-full h-full object-cover"
                 />
               </div>
