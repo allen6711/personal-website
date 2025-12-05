@@ -44,7 +44,7 @@ const Navigation = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="text-xl font-semibold font-inter text-charcoal">
-            Wei-Lun Huang
+            Allen Huang
           </div>
           
           <div className="hidden md:flex items-center space-x-8">
