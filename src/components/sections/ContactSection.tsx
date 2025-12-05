@@ -21,7 +21,7 @@ const ContactSection = () => {
     // Create mailto link with form data
     const subject = `Message from ${formData.name}`;
     const body = `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`;
-    const mailtoLink = `mailto:weilunhuang6711@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    const mailtoLink = `mailto:allenhuang.jon@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     
     window.location.href = mailtoLink;
     
@@ -45,19 +45,19 @@ const ContactSection = () => {
     {
       icon: Mail,
       label: 'Email',
-      value: 'weilunhuang6711@gmail.com',
-      href: 'mailto:weilunhuang6711@gmail.com'
+      value: 'allenhuang.jon@gmail.com',
+      href: 'mailto:allenhuang.jon@gmail.com'
     },
     {
       icon: Phone,
       label: 'Phone',
-      value: '(425) 469-7812',
-      href: 'tel:+14254697812'
+      value: '(425) 574-6590',
+      href: 'tel:+14255746590'
     },
     {
       icon: Linkedin,
       label: 'LinkedIn',
-      value: 'wei-lun-allen-huang',
+      value: 'Allen Huang',
       href: 'https://linkedin.com/in/wei-lun-allen-huang'
     },
     {
@@ -69,7 +69,7 @@ const ContactSection = () => {
     {
       icon: MapPin,
       label: 'Location',
-      value: 'Seattle, WA',
+      value: 'Bellevue, WA',
       href: '#'
     }
   ];
