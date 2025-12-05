@@ -1,7 +1,7 @@
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
-import { ExternalLink, Github, Calendar } from 'lucide-react';
+import { Github, Calendar } from 'lucide-react';
 
 const ProjectsSection = () => {
   const projects = [
@@ -73,28 +73,16 @@ const ProjectsSection = () => {
                     <h3 className="text-xl font-bold text-charcoal group-hover:text-jade-dark transition-smooth">
                       {project.title}
                     </h3>
-                    <div className="flex space-x-2">
-                      <Button
-                        size="sm"
-                        variant="ghost"
-                        className="h-8 w-8 p-0 hover:bg-jade-light/20 hover:text-jade-dark"
-                        asChild
-                      >
-                        <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
-                          <Github className="h-4 w-4" />
-                        </a>
-                      </Button>
-                      <Button
-                        size="sm"
-                        variant="ghost"
-                        className="h-8 w-8 p-0 hover:bg-jade-light/20 hover:text-jade-dark"
-                        asChild
-                      >
-                        <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
-                          <ExternalLink className="h-4 w-4" />
-                        </a>
-                      </Button>
-                    </div>
+                    <Button
+                      size="sm"
+                      variant="ghost"
+                      className="h-8 w-8 p-0 hover:bg-jade-light/20 hover:text-jade-dark"
+                      asChild
+                    >
+                      <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
+                        <Github className="h-4 w-4" />
+                      </a>
+                    </Button>
                   </div>
                   
                   <p className="text-jade-dark font-medium mb-2">{project.subtitle}</p>
