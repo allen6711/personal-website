@@ -4,7 +4,7 @@ const FloatingSocialIcons = () => {
   const socialLinks = [
     {
       icon: Mail,
-      href: 'mailto:allenhuang.jon@gmail.com',
+      href: 'mailto:allenhuang.job@gmail.com',
       label: 'Email',
     },
     {
