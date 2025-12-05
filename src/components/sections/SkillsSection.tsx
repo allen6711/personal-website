@@ -26,7 +26,7 @@ const SkillsSection = () => {
       title: 'Cloud & DevOps',
       icon: Cloud,
       skills: ['AWS (EC2, S3, Lambda, RDS)', 'Docker', 'Kubernetes', 'CI/CD', 'Linux', 'Git'],
-      color: 'bg-charcoal-light/10 text-charcoal',
+      color: 'bg-jade-light/20 text-jade-dark',
     },
   ];
 
