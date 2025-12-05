@@ -4,12 +4,12 @@ const FloatingSocialIcons = () => {
   const socialLinks = [
     {
       icon: Mail,
-      href: 'mailto:weilunhuang6711@gmail.com',
+      href: 'mailto:allenhuang.jon@gmail.com',
       label: 'Email',
     },
     {
       icon: Phone,
-      href: 'tel:+14254697812',
+      href: 'tel:+14255746590',
       label: 'Phone',
     },
     {
