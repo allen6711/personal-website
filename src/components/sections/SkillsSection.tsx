@@ -1,31 +1,31 @@
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { Code2, Database, Globe, Lightbulb } from 'lucide-react';
+import { Code2, Database, Globe, Cloud } from 'lucide-react';
 
 const SkillsSection = () => {
   const skillCategories = [
     {
-      title: 'Programming',
+      title: 'Languages',
       icon: Code2,
-      skills: ['Python', 'Java', 'SQL', 'JavaScript', 'TypeScript'],
+      skills: ['Python', 'Java', 'JavaScript/TypeScript', 'SQL', 'C++', 'Go'],
       color: 'bg-jade-light/20 text-jade-dark',
     },
     {
-      title: 'Web & Frameworks',
+      title: 'Web & Backend',
       icon: Globe,
-      skills: ['React', 'Node.js', 'Express', 'HTML5', 'CSS3', 'Tailwind CSS'],
+      skills: ['React', 'Node.js', 'Express', 'HTML/CSS', 'REST APIs', 'OAuth 2.0', 'Flask', 'Spring Boot'],
       color: 'bg-jade-medium/20 text-jade-dark',
     },
     {
-      title: 'Databases & Tools',
+      title: 'Data & Storage',
       icon: Database,
-      skills: ['MongoDB', 'PostgreSQL', 'Git', 'Docker', 'Google Sheets API'],
+      skills: ['PostgreSQL', 'MongoDB', 'Pandas', 'ETL pipelines', 'Redis'],
       color: 'bg-jade-dark/20 text-jade-dark',
     },
     {
-      title: 'Specialized',
-      icon: Lightbulb,
-      skills: ['Machine Learning', 'Prompt Engineering', 'Statistical Analysis', 'Data Processing'],
+      title: 'Cloud & DevOps',
+      icon: Cloud,
+      skills: ['AWS (EC2, S3, Lambda, RDS)', 'Docker', 'Kubernetes', 'CI/CD', 'Linux', 'Git'],
       color: 'bg-charcoal-light/10 text-charcoal',
     },
   ];
