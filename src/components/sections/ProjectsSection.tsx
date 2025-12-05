@@ -103,8 +103,8 @@ const ProjectsSection = () => {
                   <h4 className="text-sm font-semibold text-charcoal mb-3">Key Features:</h4>
                   <ul className="space-y-1">
                     {project.highlights.map((highlight) => (
-                      <li key={highlight} className="text-sm text-charcoal-light flex items-center">
-                        <span className="w-1.5 h-1.5 bg-jade-medium rounded-full mr-2 flex-shrink-0"></span>
+                      <li key={highlight} className="text-sm text-charcoal-light flex items-start">
+                        <span className="w-1.5 h-1.5 bg-jade-medium rounded-full mr-2 flex-shrink-0 mt-1.5"></span>
                         {highlight}
                       </li>
                     ))}
