@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
+import { ThemeToggle } from '@/components/ThemeToggle';
 
 const Navigation = () => {
   const [activeSection, setActiveSection] = useState('home');
@@ -63,13 +64,16 @@ const Navigation = () => {
             ))}
           </div>
 
-          <Button 
-            variant="default"
-            className="bg-jade-light hover:bg-jade-medium text-charcoal font-medium"
-            onClick={() => scrollToSection('contact')}
-          >
-            Get in Touch
-          </Button>
+          <div className="flex items-center gap-2">
+            <ThemeToggle />
+            <Button 
+              variant="default"
+              className="bg-jade-light hover:bg-jade-medium text-charcoal font-medium"
+              onClick={() => scrollToSection('contact')}
+            >
+              Get in Touch
+            </Button>
+          </div>
         </div>
       </div>
     </nav>
