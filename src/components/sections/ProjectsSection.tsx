@@ -6,45 +6,45 @@ import { ExternalLink, Github, Calendar } from 'lucide-react';
 const ProjectsSection = () => {
   const projects = [
     {
-      title: 'Unified LeetCode Problem Finder',
+      title: 'Distributed Task Processing Service',
+      subtitle: 'Scalable Microservices Architecture',
+      period: 'November–December 2025',
+      description: 'A distributed task processing service with separate API, scheduler, and worker containers, featuring reliable message delivery and horizontal scaling capabilities.',
+      techStack: ['Java', 'Spring Boot', 'Redis', 'Docker'],
+      highlights: [
+        'Designed a Java/Spring Boot + Redis task service with separate API, scheduler, and worker Docker containers',
+        'Implemented at-least-once delivery with Redis Lists/ZSETs, 3 retries (2/4/8s backoff), and a dead-letter queue',
+        'Scaled worker containers from 1→4 in Docker Compose, reducing 40-task batch time from ~60s to ~18s in local tests'
+      ],
+      githubUrl: 'https://github.com/allen6711/distributed-task-service',
+      liveUrl: '#'
+    },
+    {
+      title: 'F1 2025 Season Researcher',
+      subtitle: 'Cloudflare Workers AI Knowledge Agent',
+      period: 'October–November 2025',
+      description: 'An AI-powered knowledge agent built on Cloudflare Workers that tracks F1 entities and answers questions using cached season data with automatic refresh capabilities.',
+      techStack: ['TypeScript', 'Cloudflare Workers', 'Durable Objects', 'Workers AI (Llama 3.3)', 'Serper API'],
+      highlights: [
+        'Developed an AI agent on Cloudflare Workers tracking 50+ F1 entities and refreshing data every 4 hours via cron jobs',
+        'Used Durable Objects as a topic-scoped state store, enabling Llama 3.3 to answer questions from cached season data',
+        'Built an ingestion pipeline with Serper and Workers AI (50+ searches/cycle, <2-min refresh) within free-tier limits'
+      ],
+      githubUrl: 'https://github.com/allen6711/cf_ai_f1_2025_researcher',
+      liveUrl: '#'
+    },
+    {
+      title: 'High-Performance LeetCode Query Engine',
       subtitle: 'Database-Driven Full-Stack App',
-      period: 'September–October 2025',
-      description: 'A high-performance full-stack application that aggregates and queries LeetCode problems from multiple sources, featuring a Chrome extension and optimized database queries for lightning-fast search capabilities.',
+      period: 'August 2025',
+      description: 'A high-performance full-stack application that aggregates and queries LeetCode problems from multiple sources, featuring a Chrome extension and optimized database queries.',
       techStack: ['JavaScript', 'Node.js', 'Express', 'PostgreSQL', 'Chrome MV3', 'HTML/CSS'],
       highlights: [
-        'Achieved sub-50ms query response with REST API + parameterized SQL',
-        'Integrated 3,700+ problems from 5 sources using a Node.js ETL pipeline',
-        'Developed Chrome MV3 extension and resolved CORS, async, Service Worker challenges'
+        'Integrated 3,700+ problems from 5 sources into a normalized PostgreSQL schema via a Node.js ETL pipeline',
+        'Optimized a sub-50ms search service on Express using parameterized SQL queries against the normalized schema',
+        'Developed a Chrome MV3 extension and resolved CORS, async, and Service Worker issues for a reliable UX'
       ],
       githubUrl: 'https://github.com/allen6711/leetcode-finder-extension',
-      liveUrl: '#'
-    },
-    {
-      title: 'Twitter-Style Social App',
-      subtitle: 'Full-Stack Web App',
-      period: 'March–May 2025',
-      description: 'A comprehensive social media application featuring real-time notifications, secure authentication, and a responsive modern interface built with React and TailwindCSS.',
-      techStack: ['JavaScript', 'React', 'Node.js', 'Express', 'MongoDB', 'TailwindCSS', 'JWT'],
-      highlights: [
-        'Built a social app with authentication, posting, and real-time notifications (500+ test posts)',
-        'Designed responsive React + Tailwind frontend, optimized via Vite for 20% faster load times',
-        'Implemented backend REST APIs and secured 15+ routes with JWT authentication'
-      ],
-      githubUrl: 'https://github.com/allen6711/x-clone',
-      liveUrl: '#'
-    },
-    {
-      title: 'AI Smart Accounting Platform',
-      subtitle: 'AI-Driven Automation Platform',
-      period: 'January–February 2025',
-      description: 'An intelligent financial management platform leveraging AI to automate transaction classification and seamlessly integrate with Google Sheets for real-time data synchronization.',
-      techStack: ['Python', 'Flask', 'React', 'Pandas', 'Google Sheets API', 'Gemini API'],
-      highlights: [
-        'Reduced manual entry by 70% across 2,000+ XLSX/CSV records using Gemini API for auto-classification',
-        'Built ETL with validation, OAuth 2.0, and exponential-backoff retries to sync with Google Sheets',
-        'Delivered REST APIs and backend schemas, demonstrating end-to-end ownership'
-      ],
-      githubUrl: 'https://github.com/allen6711/fin-pipe',
       liveUrl: '#'
     }
   ];
